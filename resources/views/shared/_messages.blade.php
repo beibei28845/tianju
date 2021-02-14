@@ -6,9 +6,9 @@
             </p>
         </div>
     @endif
-    @if (session('success'))
+    {{-- @if (session('success'))
         <div class="alert alert-success" role="alert">
             {{ session('success') }}
         </div>
-    @endif
+    @endif --}}
 @endforeach
